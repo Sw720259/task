@@ -23,3 +23,15 @@ int main(){
 
 	return 0;
 }
+#include<stdio.h>
+int main(){
+	int num;
+	printf("enter a number:");
+	scanf("%d",&num);
+	(num>0)?printf("%d is positive.\n",num):
+	(num<0)?printf("%d is negative.\n",num):
+
+	printf("number is zero.\n");
+
+	return 0;
+}
